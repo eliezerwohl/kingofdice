@@ -1,5 +1,5 @@
 var rollOptions = ["hand", "heart", "lightning", "building", "skull", "heart"];
-var diceCount = 0;
+var diceCount = 6;
 
 $(".btn-primary").on("click", function(){
 diceCount = $(this).attr('data-choice');
