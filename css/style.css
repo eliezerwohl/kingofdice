@@ -1,14 +1,18 @@
 .stayRoll{
   border:3px red solid;
 }
+/*.rollButton{
+border:2px gray solid;
+}*/
 img {
   height:70px;
-  margin:10px;
+  width:70px;
+  margin:5px;
 }
-/*
-button{
-  margin:10px;
-}*/
+
+.rollButton{
+  margin-bottom:10px;
+}
 
 #rollIt{
   font-size: 1.5em;
