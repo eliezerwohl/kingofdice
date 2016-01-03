@@ -24,9 +24,12 @@ $( ".rollButton" ).not( ".stayRoll" ).remove();
 
 function diceRolling(){
 var diceRoll = Math.floor(Math.random() * rollOptions.length)
-var rolled =  rollOptions[diceRoll]
+var rolled =  rollOptions[diceRoll];
+var rolledImg = rolled + ".png";
+var img = $ ("<img>").attr("src", rolledImg)
 
-var div =$("<button>").addClass("rollButton").append(rolled);
+var div =$("<button>").addClass("rollButton").append(rolled)
+.append(img);
 
 $(".target").append(div);
 }
