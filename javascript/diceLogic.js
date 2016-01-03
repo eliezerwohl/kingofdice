@@ -7,13 +7,6 @@ console.log(diceCount);
 return diceCount
 });
 
-
-// $( ".data" ).click(function() {
-//    login = $("option").attr('data-choice'); 
-//   console.log(login)
-//   // $( this ).toggleClass( stayRoll, rollButton );
-// });
-
 $("body").on("click", ".rollButton", function(){
  $( this ).toggleClass("stayRoll");
 });
@@ -35,7 +28,7 @@ var rolled =  rollOptions[diceRoll];
 var rolledImg = rolled + ".png";
 var img = $ ("<img>").attr("src", rolledImg)
 
-var div =$("<button>").addClass("rollButton").append(rolled)
+var div =$("<button>").addClass("rollButton")
 .append(img);
 
 $(".target").append(div);
