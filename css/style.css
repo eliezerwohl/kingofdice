@@ -3,8 +3,23 @@
 }
 img {
   height:70px;
+  margin:10px;
 }
-
+/*
 button{
   margin:10px;
+}*/
+
+#rollIt{
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.diceCount{
+  border:1px black solid;
+  background:lightblue;
+  padding-bottom: 20px;
+}
+.btn-success{
+  margin-bottom: 40px
 }
