@@ -1,3 +1,10 @@
 .stayRoll{
   border:3px red solid;
 }
+img {
+  height:40px;
+}
+
+button{
+  margin:10px;
+}
