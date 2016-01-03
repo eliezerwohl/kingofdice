@@ -1,21 +1,28 @@
 var rollOptions = ["hand", "heart", "lightning", "building", "skull", "heart"];
+var diceCount = 0;
 
-$( ".count" ).click(function() {
-      var n = $( ".stayRoll" ).length;
-      var j = $(".newRoll").length;
-   console.log(n)
-   console.log(j)
-  // $( this ).toggleClass( stayRoll, rollButton );
+$(".btn-primary").on("click", function(){
+diceCount = $(this).attr('data-choice');
+console.log(diceCount);
+return diceCount
 });
+
+
+// $( ".data" ).click(function() {
+//    login = $("option").attr('data-choice'); 
+//   console.log(login)
+//   // $( this ).toggleClass( stayRoll, rollButton );
+// });
 
 $("body").on("click", ".rollButton", function(){
  $( this ).toggleClass("stayRoll");
 });
 
-$(".btn").on("click", function(){
+$("#rollIt").on("click", function(){
+  console.log(diceCount)
   var n = $( ".stayRoll" ).length;
 
-var manyRolls = 6 - n;
+var manyRolls = diceCount - n;
 // console.log(manyRolls)
 $( ".rollButton" ).not( ".stayRoll" ).remove();
   for (i = 0; i < manyRolls; i++) { 
