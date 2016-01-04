@@ -1,4 +1,4 @@
-var rollOptions = ["hand", "heart", "lightning", "building", "skull", "heart"];
+var rollOptions = ["hand", "heart", "lightning", "building", "skull", "star"];
 var diceCount = 6;
 $(document).ready(function(){
   $(".btn-primary").on("click", function(){
