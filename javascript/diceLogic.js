@@ -10,6 +10,7 @@ $(document).ready(function(){
   $( this ).toggleClass("stayRoll");
   });
   $("#rollIt").on("click", function(){
+    $("h2").hide();
     var n = $( ".stayRoll" ).length;
     var manyRolls = diceCount - n;
       $( ".rollButton" ).not( ".stayRoll" ).remove();
