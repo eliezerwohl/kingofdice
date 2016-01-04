@@ -10,8 +10,9 @@ img {
   margin:5px;
 }
 
-.rollButton{
+.rollButton, .stayRoll{
   margin-bottom:10px;
+  min-height:82px;
 }
 
 #rollIt{
