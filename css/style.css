@@ -15,16 +15,26 @@ img {
   min-height:82px;
 }
 
+h3{
+  margin-top: 10px
+}
 #rollIt{
   font-size: 1.5em;
   margin-top: 20px;
 }
 
+.rollingDiv{
+  border:1px black solid;
+  background:lightgreen;
+  padding-bottom:0px;
+  padding-top: 25px;
+  margin-bottom: 40px;
+}
 .diceCount{
   border:1px black solid;
   background:lightblue;
   padding-bottom: 20px;
 }
 .btn-success{
-  margin-bottom: 40px
+  margin-bottom: 11px
 }
