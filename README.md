@@ -1,1 +1,1 @@
-# kingofdice
+Made a dice simulator to go along with the "King Of New York" board game.  Rolling 6-8 dice requires too much space, and often leads to knocking pieces on the board over, or dice falling on the floor.
